@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="./index.html">GetBest</a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./cart.html">Cart</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="back-button">
+      <a href="index.html" class="back-to-home-button">Back to Home</a>
+    </div>
+
+    <div id="main-div"></div>
+    <div class="total-btn">
+      <div><button onclick="check();">Check Total</button></div>
+      <div
+        style="font-size: x-large; margin-left: 10px; margin-top: 10px"
+        id="total"
+      ></div>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>
