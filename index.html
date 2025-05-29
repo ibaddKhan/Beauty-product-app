@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - GetBest</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home - GetBest Beauty</title>
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -14,20 +14,21 @@
   <body>
     <div class="navbar">
       <div class="logo">
-        <a href="./index.html">GetBest</a>
+        <a href="./index.html">GetBest Beauty</a>
       </div>
       <div class="menu">
         <ul>
-          <li><a href="./">Home</a></li>
+          <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About</a></li>
-          <li><a href="./cart.html">Cart</a></li>
         </ul>
+      </div>
+      <div class="cart-top" onclick="gotoCart()">
+        <button><i class="fas fa-shopping-cart"></i> Cart</button>
       </div>
     </div>
 
-    <div id="main-div2"></div>
     <div id="main-div"></div>
-    <div id="cart-b" onclick="gotoCart()"><button>Cart</button></div>
+
     <script src="app.js"></script>
   </body>
 </html>
